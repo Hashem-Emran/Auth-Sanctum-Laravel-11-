@@ -2,8 +2,22 @@
 
 
 
+// delete logout 
+# POST http://127.0.0.1:8000/api/logout
+# Authorization: Bearer 2|9aNIEIVeRHpc0gJYcxMENu2tOu5ywjq83VlHclCv1e0b6cf4
+# Content-Type: application/json
 
 
+
+
+//token 
+# GET http://127.0.0.1:8000/api/user
+# Authorization: Bearer 1|7x3Z7PvKDL9KJg7y64gaN5vqggR21ISWwUsHLtzG799a145c
+# Accept: application/json
+
+
+
+//register  
 # POST http://127.0.0.1:8000/api/register
 # Content-Type: application/json
 
@@ -14,7 +28,7 @@
 #   "password_confirmation": "123456789"
 # }
 
-
+//login 
 # POST http://127.0.0.1:8000/api/login
 # Content-Type: application/json
 
