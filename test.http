@@ -2,11 +2,23 @@
 
 
 
-POST http://127.0.0.1:8000/api/login
-Content-Type: application/json
 
-{
-  "email": "mohmad@testing.com",
-  "password": "123456789"
-}
 
+# POST http://127.0.0.1:8000/api/register
+# Content-Type: application/json
+
+# {
+#   "name": "mohmad",
+#   "email": "mohmad@testing.com",
+#   "password": "123456789",
+#   "password_confirmation": "123456789"
+# }
+
+
+# POST http://127.0.0.1:8000/api/login
+# Content-Type: application/json
+
+# {
+#   "email": "mohmad@testing.com",
+#   "password": "123456789"
+# }
